@@ -70,8 +70,13 @@ body {
 .link-navs:focus {
   color: #2196f3;
 }
+
+.navs-img{
+  margin-right: 10px;
+}
 .link-navs,
 .tel {
+  margin: 0px;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
@@ -93,6 +98,8 @@ body {
 .header-main {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-main .item:not(:last-child) {
   margin-right: 50px;
