@@ -20,32 +20,43 @@
       <div class="container header-main">
         <a class="logo-nav" href="/">
           <span class="logo-left logo">web</span>
-          <span class="logo-riht logo">studio</span></a
-        >
+          <span class="logo-riht logo">studio</span></a>
         <nav>
           <ul class="header-listf list">
             <li class="item">
-              <a class="link-navf" href="./index.html">Студия</a>
+              <a class="link-navf current" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a class="link-navf current" href="./portfolio.html">Портфолио</a>
+              <a class="link-navf" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="item"><a class="link-navf" href="">Контакты</a></li>
           </ul>
         </nav>
-
+      
         <ul class="header-lists list">
           <li class="item">
-            <a class="link-navs" href="">info@devstudio.com</a>
+            <a class="link-navs" href="">
+              <svg class="link-navs icon" width="16px" height="11.2px">
+                <use href="./images/symbol-defs1.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="tel item">+38 096 111 11 11</li>
+          <li class="item">
+            <a class="link-navs" href="">
+              <svg class="link-navs icon" width="10px" height="14.94px">
+                <use href="./images/symbol-defs1.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </div>
     </header>
 
     <main>
       <section class="section-portfolio">
-        <h1 class="section-start">Примеры работ</h1>
+        <h1 class="section-start hidden">Примеры работ</h1>
         <div class="main-section">
           <div class="container">
             <ul class="list list-button">
@@ -283,12 +294,11 @@
             <address class="footer-address">
               <a class="logo-footer" href="/">
                 <span class="logo-left logo">web</span>
-                <span class="logo-rihts logo">studio</span></a
-              >
+                <span class="logo-rihts logo">studio</span></a>
               <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-
+      
               <a class="footer-link footer-text" href="">info@example.com</a>
-
+      
               <a class="footer-link" href="">+38 099 111 11 11</a>
             </address>
           </div>
@@ -296,24 +306,32 @@
             <b class="action">Присоединяйтесь</b>
             <ul class="list social-networksf">
               <li class="item">
-                <a href="">
-                  <img src="./images/instagram.svg" alt="логотип инстаграм"
-                /></a>
+                <a class="footer-icon" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs1.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li class="item">
-                <a href="">
-                  <img src="./images/twitter.svg" alt="логотип твитер"
-                /></a>
+                <a class="footer-icon" href="">
+                  <svg width="20px" height="16.25px">
+                    <use href="./images/symbol-defs1.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li class="item">
-                <a href="">
-                  <img src="./images/facebook.svg" alt="логотип фейсбук"
-                /></a>
+                <a class="footer-icon" href="">
+                  <svg width="10px" height="20px">
+                    <use href="./images/symbol-defs1.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li class="item">
-                <a href="">
-                  <img src="./images/linkedin.svg" alt="логотип линкден"
-                /></a>
+                <a class="footer-icon" href="">
+                  <svg width="20px" height="20px">
+                    <use href="./images/symbol-defs1.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -321,10 +339,8 @@
             <b class="action">Подпишитесь на рассылку</b>
           </div>
         </div>
-
-        <div class="end">
-          <p>2020 &#10072; Developed by GoIT Students</p>
-        </div>
+      
+        <p class="end">2020 &#10072; Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
