@@ -419,7 +419,7 @@ footer {
   justify-content: space-between;
 }
 
-.social-networksf .item {
+.social-networksf .item:not(:last-child) {
   margin-right: 10px;
 }
 
