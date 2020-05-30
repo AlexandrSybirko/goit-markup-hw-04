@@ -68,25 +68,19 @@ body {
 
 
 .link-navs .icon {
-width: 16px;
-height: 11.2px;
 margin-right: 10px;
+fill: #757575;
 }
 
 .link-navs:hover,
 .link-navs:focus {
   color: #2196f3;
+  fill: #2196f3;
+  
 }
 
 
-
-
-
-
-
-
-.link-navs,
-.tel {
+.link-navs {
   margin: 0px;
   color: #757575;
   font-weight: 500;
@@ -169,6 +163,9 @@ margin-right: 10px;
   height: 1px;
   margin: -1px;
 }
+
+
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -222,9 +219,13 @@ margin-right: 10px;
 .list-comanda {
   display: flex;
   align-items: center;
+  
 }
 .list-comanda .link-comanda:not(:last-child) {
   margin-right: 30px;
+}
+.link-comanda {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .section-text {
@@ -297,16 +298,35 @@ margin-right: 10px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  
+  fill: #AFB1B8;
 }
+
+.social-item:hover,
+.social-item:focus {
+background-color: #2196F3;
+  fill: #FFFFFF;
+}
+
 
 .client {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
 }
 .client .item:not(:last-child) {
   margin-right: 30px;
+}
+
+.client-logo {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+
+border-radius: 4px;
+  background-color: #E5E5E5;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
@@ -377,11 +397,32 @@ footer {
   justify-content: space-between;
 }
 
+.footer-icon {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #FFFFFF;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: #2196F3;
+}
+
 .social-networksf {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.social-networksf .item {
+  margin-right: 10px;
+}
+
 .action {
   display: inline-block;
   margin-bottom: 21px;
