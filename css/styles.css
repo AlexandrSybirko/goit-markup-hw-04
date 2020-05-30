@@ -66,14 +66,25 @@ body {
   margin-right: 30px;
 }
 
+
+.link-navs .icon {
+width: 16px;
+height: 11.2px;
+margin-right: 10px;
+}
+
 .link-navs:hover,
 .link-navs:focus {
   color: #2196f3;
 }
 
-.navs-img{
-  margin-right: 10px;
-}
+
+
+
+
+
+
+
 .link-navs,
 .tel {
   margin: 0px;
@@ -278,6 +289,17 @@ body {
 .social-networks .item:not(:last-child) {
   margin-right: 10px;
 }
+
+.social-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  
+}
+
 .client {
   display: flex;
   align-items: center;
