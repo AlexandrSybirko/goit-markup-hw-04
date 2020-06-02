@@ -519,7 +519,16 @@ footer {
   line-height: 1.87;
 }
 
+.cards-ovarlay {
+  position: relative;
+}
+
 .section-textps {
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  width: 370px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 63px 24px;
@@ -553,4 +562,10 @@ footer {
 .cards:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.cards:hover .section-textps {
+  opacity: 1;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
